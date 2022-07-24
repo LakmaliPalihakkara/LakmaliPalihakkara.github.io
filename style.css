@@ -270,3 +270,30 @@ inter_personal_skills{
   margin-right: auto;
   }
 
+  .vl {
+    width: 3px;
+    background-color: rgb(111, 186, 196); 
+    height: 300px;
+  }
+
+  .message {
+    margin: 27px;
+  }
+
+  #message_input {
+    height: 27px;
+  }
+
+  #btn_submit_row
+{
+    width: 100px;
+    margin: auto;   
+}
+
+
+.btn_submit
+{
+    background-image: linear-gradient(rgb(111, 186, 196), rgb(195, 252, 216));
+    border-color:rgb(0, 204, 255);
+    color: rgb(0, 0, 0);
+}
