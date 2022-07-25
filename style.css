@@ -3,8 +3,9 @@ h1{
     text-align: center;
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke: 1px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     font-size: 45px;
+    padding-top: 80px;
 }
 
 p{
@@ -52,6 +53,7 @@ body {
     border-radius: 0px 0px, 500px, 500px;
     border-width: 5px;
     padding: 20px;
+    z-index: 0;
     /* border-style: solid;
     border-color: rgb(0, 0, 0);
     border-style: double; */
@@ -92,6 +94,7 @@ ul{
 
 li{
     float: left;
+
     
 }
 
@@ -105,19 +108,27 @@ li a{
 }
 
 li a:active{
-    background-color: #f838df;
-}
-
-li a:hover{
     background-color: rgb(0, 204, 255);
 }
+
+/* li a:hover{
+    background-color: rgb(0, 204, 255);
+} */
 
 .active{
     background-color: #033999;
 }
 
-.header{
+header{
     padding:center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(65deg,rgb(111, 186, 196),rgb(111, 186, 196), rgb(111, 186, 196));
+   /* color: white;
+    font-family: 'Exo 2', sans-serif; 
+    padding: 1em; */
 }
 
 .myNav{
@@ -207,6 +218,7 @@ inter_personal_skills{
   #project_title{
     text-align: center;
     font-size: 40px;
+    padding: 10px;
   }
 
   .slogon{
@@ -250,7 +262,7 @@ inter_personal_skills{
   }
 
   .row{
-    margin: 15px;
+    margin: 10px;
 
   }
 
@@ -296,4 +308,37 @@ inter_personal_skills{
     background-image: linear-gradient(rgb(111, 186, 196), rgb(195, 252, 216));
     border-color:rgb(0, 204, 255);
     color: rgb(0, 0, 0);
+}
+
+#home{
+  width: 50%;
+  border-radius: 5px 5px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  
+
+}
+
+.space{
+  height: 100px;
+}
+
+
+.name{
+  color: #ffffffb4;
+  text-align: center;
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px;
+  padding-bottom: 50px;
+  font-size: 45px;
+  padding-top: 15px;
 }
