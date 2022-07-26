@@ -28,6 +28,7 @@ body {
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -128,7 +129,8 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #94B49F
+    background-color: #94B49F;
+    font-family: 'Roboto', sans-serif;
 }
 
 .myNav{
@@ -174,10 +176,6 @@ header{
     text-align: left;
 }
 
-inter_personal_skills{
-    float: 0;
-    
-}
 
 * {
     box-sizing: border-box;
