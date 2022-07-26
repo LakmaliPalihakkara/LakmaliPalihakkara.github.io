@@ -1,7 +1,6 @@
 h1{
     color: #ffffffb4;
     text-align: center;
-    /* -webkit-text-fill-color: rgb(0, 0, 0); */
     -webkit-text-fill-color: #fdc19b;
     -webkit-text-stroke: 1px;
     stroke: #414040;
@@ -33,9 +32,6 @@ body {
 }
 
 #grad1 {
-    /* width: 100vw;
-    height: 100vh; */
-    /* background-image: linear-gradient(rgb(111, 186, 196), rgb(195, 252, 216)); */
     background-color:#CEE5D0;
     padding-bottom: 20px;
 }
@@ -48,7 +44,6 @@ body {
 
 .card{
 
-    /* background-color: transparent;	 */
     left: 0;
     right: 0;
     margin: auto;
@@ -60,9 +55,6 @@ body {
     border-width: 5px;
     padding: 20px;
     z-index: 0;
-    /* border-style: solid;
-    border-color: rgb(0, 0, 0);
-    border-style: double; */
 
 }
 
@@ -92,7 +84,6 @@ body {
 ul{
     margin: 0;
     padding: 0;
-    /* background-color: #a19999; */
     overflow: hidden;
     list-style-type: none;
     color: black;
@@ -115,14 +106,10 @@ li a{
 }
 
 li a:active{
-    /* background-color: rgb(0, 204, 255); */
     background-color: #ECB390;
     color: #94B49F;
 }
 
-/* li a:hover{
-    background-color: #94B49F;
-} */
 
 .active{
     background-color: #ECB390;
@@ -141,11 +128,7 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    /* background-image: linear-gradient(65deg,rgb(111, 186, 196),rgb(111, 186, 196), rgb(111, 186, 196)); */
     background-color: #94B49F
-   /* color: white;
-    font-family: 'Exo 2', sans-serif; 
-    padding: 1em; */
 }
 
 .myNav{
@@ -200,7 +183,6 @@ inter_personal_skills{
     box-sizing: border-box;
   }
   
-  /* Create four equal columns that floats next to each other */
   .column {
     float: right;
     width: 25%;
@@ -211,7 +193,6 @@ inter_personal_skills{
    
   }
   
-  /* Clear floats after the columns */
   .row:after {
 
     content: "";
@@ -324,7 +305,7 @@ inter_personal_skills{
 
 .btn_submit
 {
-    /* background-image: linear-gradient(rgb(111, 186, 196), rgb(195, 252, 216)); */
+  
     background-color: #CEE5D0;
     border-color: #94B49F;
     color: rgb(37, 37, 37);
